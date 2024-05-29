@@ -1,0 +1,115 @@
+/* Define unique styles for your Caretips App */
+
+/* Body and container styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e79898;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #4a148c; /* Purple */
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #f44336; /* Red */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff5722; /* Orange */
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  position: relative;
+}
+
+/* Edit and Delete button styles */
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.btn-danger {
+  background-color: #2196F3; /* Blue */
+  color: white;
+}
+
+.btn-info {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Edit form styles */
+.edit-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e1bee7; /* Light Purple */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  input[type="text"] {
+    width: calc(100% - 10px);
+  }
+}
